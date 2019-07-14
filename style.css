@@ -1,0 +1,365 @@
+*
+{
+    padding: 0;/*reset des padding et margin de tout la page*/
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a*
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+/* formulaire*/
+#follome
+{
+    position: absolute;
+    cursor: pointer;
+   
+    display: none;
+    z-index: 4;
+    margin-left: 50px;
+    margin-top: 160px;
+    background-color: rgba(54, 54, 54);
+    width: 70%;
+    height: 450px;
+    border-radius:10px;
+    border:2px solid grey;
+
+    
+}
+#reset
+{
+    background-color: white;
+    margin-left: 70%;
+}
+
+#entreprise, #mail
+{
+      position: relative;
+      margin-left: 27%;
+      width: 40%;
+      height: 32px;
+}
+
+#terea
+{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+#validation
+{
+    position: relative;
+margin-left: 70%;
+background-color:white;
+border-radius:5px;
+margin-top:5px;
+}
+#closeformu
+{
+   background: white;
+   width: 40px;
+   height:40px; 
+   position: relative;
+   margin-left: 97%;
+   border:3px solid black;
+   text-align: center;
+   border-radius:10px;
+ 
+   
+
+}
+#formula
+{
+margin-top:-20px;
+
+}
+
+#conteneurMain      /*LE CONTENEUR QUI CONTIENT TOUTE LA */
+{
+  width: 100%;
+  margin:0 auto;
+  
+ border-bottom: 1px solid rgba(173, 172, 172,0.2);
+ 
+  
+}
+#openN/*LA DEUXIEME DIV DE LA LIGNE1*/
+{
+
+    background: url(img/menu.png) no-repeat 97% 5px;
+
+}
+#conteneurMain div/*LA PREMIERE DIV DE LA LIGNE1*/
+{
+    font-size: 26px;
+    
+  
+}
+.ligne1
+{
+    display: flex;/*alignement en ligne des éléments div contenu dans LIGNE1*/
+    justify-content: flex-end; 
+    height:60px ;
+    font-size:32px;
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 30px -20px rgba(0,0,0,0.70);
+-moz-box-shadow: 10px 10px 30px -20px rgba(0,0,0,0.70);
+box-shadow: 10px 10px 30px -20px rgba(0,0,0,0.70);
+
+  
+}
+.onglet  li
+{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    font-size: 1em;
+     font-weight:bold;
+    border-bottom: 1px solid rgb(173, 172, 172,0.8);
+  
+}
+
+.onglet  li:hover
+{
+    background: rgb(170, 170, 170);
+    -webkit-box-shadow: 10px 10px 30px -20px rgba(0,0,0,0.90);
+    -moz-box-shadow: 10px 10px 30px -20px rgba(0,0,0,0.90);
+    box-shadow: 10px 10px 30px -20px rgba(0,0,0,0.90);
+    
+    
+}
+.navMobileOnglet
+{
+   height:0em;
+    visibility: hidden;
+    transition: 0.05s;
+}
+#contact
+{
+          width: 100%;
+          background: dodgerblue;
+          visibility: visible;
+
+          font-size:2em;
+}
+.col-1{width: 8.333333%;
+height: 2em;}
+.col-2{width: 16.666666%;
+height: 2em;}
+.col-3{width: 24.999999%;
+height: 2em;}
+.col-4{width: 33.333332%;
+height: 2em;}
+.col-5{width: 41.666666%;
+height: 2em;}
+.col-6{width: 50%;
+height: 2em;}
+.col-7{width: 58.333331%;
+height: 2em;}
+.col-8{width: 66.666666%;
+height: 2em;}
+.col-9{width: 74.999999%;
+height: 2em;}
+.col-10{width: 83.333333%;
+height: 2em;}
+.col-11{width: 91.666666%;
+height: 2em;}
+.col-12{width: 99.999999%;
+height: 2em;}
+
+
+.rouge{background: red;}
+.bleu{background: blue;}
+
+.marge-1{margin-left: 8.333333%;
+    height: 2em;}
+    .marge-2{margin-left: 16.666666%;
+    height: 2em;}
+    .marge-3{margin-left: 24.999999%;
+    height: 2em;}
+    .marge-4{margin-left: 33.333332%;
+    height: 2em;}
+    .marge-5{margin-left: 41.666666%;
+    height: 2em;}
+    .marge-6{margin-left: 50%;
+    height: 2em;}
+    .marge-7{margin-left: 58.333331%;
+    height: 2em;}
+    .marge-8{margin-left: 66.666666%;
+    height: 2em;}
+    .marge-9{margin-left: 74.999999%;
+    height: 2em;}
+    .marge-10{margin-left: 83.333333%;
+    height: 2em;}
+    .marge-11{margin-left: 91.666666%;
+    height: 2em;}
+    .marge-12{margin-left: 99.999999%;
+    height: 2em;}
+
+    
+
+    .com1M
+    {
+      width: 90%;
+      height: 40px;
+      background: rgb(255, 255, 255,0.2);
+      margin: 0 auto;
+     
+      
+      
+    }
+.pic
+{
+    width: 90%; 
+    background: lime;
+    height: 450px;
+    margin: 0 auto;
+     
+    
+}
+h1
+{
+    text-align: center;
+}
+
+
+.conteneur2
+{
+    width: 100%;
+    height: 910px;
+    background: white;
+    background-size: 100% 910px;
+    border-top:1px solid grey;
+}
+.conteneur2 p
+{
+           color: rgb(0, 0, 0);
+           font-size:16px;
+           margin-left:20px;
+           margin-right:20px;
+           padding-top: 30px;
+
+}
+#bando
+{
+  border-bottom:1px solid rgb(138, 138, 138);
+  -webkit-box-shadow: 10px 10px 30px -20px rgba(0,0,0,0.70);
+  -moz-box-shadow: 10px 10px 30px -20px rgba(0,0,0,0.70);
+  box-shadow: 10px 10px 30px -20px rgba(0,0,0,0.70);
+}
+.rouge{color:red;}
+#compass
+{
+    margin-left:30%;
+    transform: rotate(-45deg);
+
+}
+#competencesM
+{
+    transition: 5s;
+    width: 100%;
+    min-height: 600px;
+    background-color:rgb(224, 223, 223);
+    border:4px 0 4px 0  solid rgb(216, 216, 216);
+}
+#competencesM h1
+{
+
+  background: rgb(63, 147, 226);  
+  font-size:32px; 
+    
+}
+#competencesM ul
+{
+    color: rgb(0, 162, 255);
+    font-size:16px;
+}
+.comptListM
+{
+    list-style: none;
+    border: 2px solid white;
+}
+#social1
+{
+    border:1px  solid rgb(190, 189, 189);  
+    margin-top: -15px;
+    justify-content: space-around;
+    
+   
+}
+#social1 i
+{
+    font-size:32px;
+    padding:0 20px;
+    
+}
+.projet
+{
+    background: rgb(122, 183, 245);
+    margin-top:3px;
+}
+.projet h1
+{
+    font-size:32px;
+    background: dodgerblue;
+}
+#burger
+{
+    /*margin-left:90%;*/
+    opacity: 0.2;
+    font-size: 36px;
+    position: fixed;
+    float: left;
+    left:90%;
+    
+    visibility: hidden;
+
+   
+}
+#burger:hover
+{
+    opacity: 0.9;  
+}
+
+div.scrollmenu {
+    background-color: rgb(51, 51, 51);
+    overflow: auto;
+    white-space: nowrap;
+   padding: 20px;
+  }
+  
+  div.scrollmenu a {
+    /*display: inline-block;*/
+
+    color: white;
+    text-align: center;
+    font-size:32px;
+    padding: 20px;
+    text-decoration: none;
+   
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  #logoset
+  {
+    display:none;
+  }
+  footer
+  {
+      background: rgb(255, 255, 255)
+  }
+  
+
+
+
+
+
+
+
+

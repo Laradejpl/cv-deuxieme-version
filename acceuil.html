@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acceuil CV jean-philippe LARADE Développeur web</title>
+</head>
+<body>
+
+    <header id="conteneurMain">
+        <!--formulaire pour me suivre-->
+            <div id="follome">
+                <h5 style="text-align: center; color: white;">Laissez vos imprèssions</h5>
+                <hr>
+                <hr>
+                
+                <div id="closeformu" onclick="closeform()">X</div>
+               <form id="formula" action="">
+                   <label for="entreprise" style="margin-left: 27%;color: white;">entreprise</label><br>
+                   <input type="text" id="entreprise" title="entrez votre entreprise" style="border-radius: 10px" required ><br>
+                    <label for="mail"  style="margin-left: 27%;color: white;" required>email</label><br>
+                   <input type="text" id="mail" title="entrez votre mail" style="border-radius:10px;" required placeholder=" utilisateur@domaine.fr">  <span id="aideCourriel" ></span>         <br><br>
+                   <textarea name="" id="terea" cols="30" rows="10" style="border-radius:10px;"> laissez votre message.</textarea>
+                   <input type="submit" id="validation" value="validation">
+                   
+
+
+               </form>
+                <!-- fin formulaire pour me suivre-->
+             </div>
+        
+        
+        <nav class="ligne1" onclick="ouvrirFermer()">
+                <div class="col-6 " ><i class="fas fa-home"></i></div>
+                <div class="col-4 marge-6" id="openN" ></div> 
+                
+            </nav>
+            <!--BARRE DE NAVIGATION  MOBILE-->
+            
+            <ul class="onglet" id="navMobile">
+                <li class="navMobileOnglet js-scrollTo " id="moi1" onclick="message1()"> A propos de moi</li>
+                <a class="js-scrollTo" href="#compp"><li class="navMobileOnglet" id="comp1">compétences</li> </a> 
+                <a  class="js-scrollTo" href="#project">    <li class="navMobileOnglet" id="proj1">Mes projets</li></a>
+                <li class="navMobileOnglet" id="exp1">Mes experiences</li>
+            </ul>
+            
+            
+            
+        </header>
+        <header id="bando"> <img src="img/roundpic.png" alt="mr larade" style="width: 110px ; height:110px; margin-top: 5px; ">
+            <h2>Jean-philippe Larade</h2>
+            <h1 id="realtitle">Développeur intégrateur web</h1>
+        </header>
+        <div class="scrollmenu">
+            <a href="laradeCV 2.pdf" target="_blank" download id="cv" activ>CV</a>
+            <a href="mailto:philarade@outlook.fr">Mail</a>
+            <a href="tel:+33769754123">Telephone</a>
+            <a href="#" onclick="openfollow()">Me suivre</a>
+            <a href="politique.html">Politique de confidentialité</a>
+            
+            <!-- <a id="linkedin-button" class="btn btn-block btn-social btn-linkedin">
+                <i class="fa fa-linkedin" aria-hidden="true"></i> Sign in with Linkedin
+            </a>-->
+            
+        </div>
+      
+        
+        <div id="togglenav">
+        <img 
+              id="engr"
+              src="engrenage.svg" 
+              alt="des engrenages"
+              height="200px"
+              width="200px" 
+/>
+<div id="logoset">
+<a href="https://www.ifocop.fr/centre-formations/paris-xi/?utm_source=seo&utm_medium=gmb&utm_campaign=paris11"><img src="Logo_ifocop.png" alt="ifocop" title="ifocop" class="ifo" id="toggle"></a>
+<a href="#"><img src="FBF.png" alt="FBF" title="facebuk" class="FBF" id="toggle1"></a>
+<a href="https://www.whire.me/"><img src="whire1.png" alt="ifocop" title="whire" class="whire" id="toggle2"></a>
+<a href="www.linkedin.com/in/jean-philippe-larade-236501181"><img src="inkdin.png" alt="ifocop" title="whire" class="linkind" id="toggle3"></a>
+</div>
+</div>
+<a  class="js-scrollTo" href="#conteneurMain">  <i class="fas fa-arrow-circle-up" id="burger"></i></a> 
+
+<!--A PROPOS DE MOI AVEC PHOTOS-->
+<article class="conteneur2" id="moiarticle1"><br><p>Je m’appelle jean-philippe  un passionné d'informatique et de programmation. Mes premières lignes de code, ont été en c# que j' ai écrit pour la création d’ application mobile.J’ai intégré le programme de développeur intégrateur web» de l’IFOCOP et à présent, je compte bien faire de ma passion, mon métier.  Je recherche dans mon futur travail une montée en compétence, j'aimerai étancher ma soif d'apprentissage. Un travail où je m'épanouis, avec une équipe enjouée mais studieuse. L'ideal serait d'intégrer une équipe avec une bonne culture digitale et aimant discuter travail autour d'un apéro.
+    
+</p>
+    <hr>
+    
+    <article class="conteneur3">
+        
+        <img id="compass"
+        src="compass.svg" 
+        alt="des engrenages"
+        height="100px"
+        width="100px" 
+        />
+        <hr>
+        <article id="competencesM">
+            <h1 id="compp">Mes compétences</h1 ><br>
+                
+                <ul class="comptab">
+                    <li class="comptListM" id=""><i class="fab fa-html5"></i> <i class="fab fa-sass"></i> Html/Css/Sass
+                        <p> Maitrise de l'intégration des  pages  web ,en accord avec le CDC,utilisation de <strong>Scss</strong> pour l'optimisation,en respectant le <strong>Responsiv-design</strong>.</p>
+                    </li><br>
+                    <hr>
+                    <li class="comptListM" id=""><i class="fab fa-js-square"></i>        Javscript/Jquery/Ajax
+                        <p> Intéractivité des pages et optimisation des pages web,requetes aux serveurs via les <strong>Api</strong> (site E-commerce),applications lié aux réseaux sociaux. </p>
+                    </li><br>
+                    <hr>
+                    <li class="comptListM" id=""><i class="fab fa-php"></i></i>  PHP/SQL/notion de FIREBASE
+                        <p>Gestion de base de donnée de type E-commerce, fiche client et authentication sécurisé des échanges projet web et mobile.</p>
+                    </li><br>
+                    <hr>
+                    <li class="comptListM" id=""><i class="fab fa-bootstrap"></i> BOOTSTRAP
+                        <p>Utilisation du framework pour l'adaptation aux divers écran mobile,tablette,desktop</p>
+                    </li>
+                    <li class="comptListM" id=""><i class="fab fa-wordpress"></i> Les CMS: wordpress/woocommerce
+                        <p>Utilisation des CMS , ces nombreuses configurations et ces plugins utilisation de la déclinaison manifique qu'est woocommerce.</p>
+                    </li><br>
+                    <hr>
+                    <li class="comptListM" id=""><i class="fab fa-github"></i> Git/Bower/Composer
+                        <p>les outils de développement pour nous les dev ,je partage mes codes avec les collegues ,ont travaillent ensemble ,en effet une de mes compétence primordial: le travail en équipe.</p>
+                    </li>
+                    <li class="comptListM" id="">SEO 
+                        <p>Search engine optimization je fais tout pour satisfaire les clients pour atteindre les meilleurs rang des recherche des internautes.
+                            veille informatique ,sur les tendances actuelle sans cesse mis au gout du jours pour retenir les bots de Google.
+                        </p>
+                    </li><br>
+                    <hr>
+                    <li> <i class="fab fa-android"></i>  ANDROID/UNITY3D
+                        <p> développement Android avec le moteur de jeux UNITY 3D,gestion De la console google play ,integration de ads ,utilisation de l'asset store pour concevoir des applis ,des jeux android.</p>
+                    </li><br>
+                    <hr>
+                    <li class="comptListM" id=""> <i class="fab fa-adobe"></i> Photoshop/cinema4D
+                        <p>l'infographie est une passion quelle soit 2d ou 3D mes connaissances dans le domaines me permettre de m'adapter a divers projets: application mobile ,web d'artiste, dans le monde du flat design je peut ajouter une touche plus fantaisiste.</p>
+                   <a href="#conteneurMain">    
+                </li><br>
+                <hr>
+                
+            </ul>
+        </article>
+        <article class="projet" id="project">
+            <h1>Mes projets</h1><br><br>
+            <ul>
+                <li> <a href="https://play.google.com/store/apps/details?id=com.uwall.airmusic">Application android(Google play)ISLAND RADIO</a>
+                    <p>Une application mobile qui propose une radio ,incluantun chat communautaire avec un sysyteme de monaitisation avec  unity ads</p>
+                    <img src="island.png" alt="radio googleplay" style="width: 100%;">
+                </li><br>
+                <hr>
+                <li><a href="https://play.google.com/store/apps/details?id=com.uwallpaper.bongo">Live rastawallpaper</a>
+                    <p>Fond d'écran animé avec ajout de publicité</p>
+                </li><br>
+                <hr>
+                <li>
+                    <p></p>
+                </li>
+                
+            </ul>
+            
+        </article>
+        <article class="experiences">
+            <h1>Mes experiences</h1>
+            <p>Mon parcours professionnel n'est pas lié a l'informatique initialement,j'ai travaillé dans le domaine de l'électricité industrielle ,puis aux Technocentre RENAULT de Guyancourt en tant que "pompier d'usine" ma passion pour les inovations technologique et du design ont pu etre étancher aux contact des ingénieur et developpeur .... </p>
+        </article><br><br>
+        
+        <footer id="social1"><i class="fas fa-envelope"></i>  
+            <i class="fas fa-phone"></i>
+            <i class="fab fa-linkedin"></i>
+            
+        </footer>
+        <script src="linkedin.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="lib/jquery-ui.min.js"></script>
+        
+        <script src="scroll.js"></script>
+        <script src="menu1.js"></script>
+        
+    </body>
+    </html>

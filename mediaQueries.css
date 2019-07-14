@@ -1,0 +1,155 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+  
+ }
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+
+  body
+  {
+      background-image: url("surface.png");
+  }
+  header h1, h2
+  {
+color:white;
+  }
+  
+  
+ }
+
+
+
+/*  Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+body
+{
+    background-image: url("surface.png");
+}
+#follome
+{
+  margin-left: 250px;
+}
+
+
+  header h1, h2
+  {
+color:white;
+  } 
+ 
+  div.scrollmenu
+  {
+padding-left: 90px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  div.scrollmenu a 
+  {
+color: rgba(192, 182, 182,);
+
+
+}
+.onglet  li
+{
+
+background-color: rgb(236, 236, 236,0.4);
+
+}
+
+.experiences
+{
+  color: white;
+}
+.experiences p
+{
+  color: white;
+}
+.ifo
+{
+  position: relative;
+  float:inherit;
+  margin-left:50px;
+  
+   /*visibility:hidden;*/
+
+
+}
+
+.FBF
+{
+    position: relative;
+    float:inherit;
+    margin-left:-45px;
+   
+    transition-property: transform;
+    transition-duration:4s;
+
+
+     /*visibility:hidden;*/
+}
+
+.whire
+{
+    position: relative;
+    float:inherit;
+    margin-left:-45px;
+    
+    transition-property: transform;
+    transition-duration:4s;
+
+
+    /*visibility:hidden;*/
+}
+.linkind
+{
+    position: relative;
+    float:inherit;
+    margin-left:-45px;
+   
+    transition-property: transform;
+    transition-duration:4s;
+
+
+    /*visibility:hidden;*/
+}
+.ligne1
+{
+  background: white;
+}
+
+
+
+#picture
+{
+    position: relative;
+    float: left;
+ 
+
+border-radius:70px;
+left:50px;
+
+visibility: visible;
+
+
+}
+#logoset
+  {
+    display:inline-block;
+  }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+  body
+  {
+      background-image: url("surface.png");
+  }
+
+ }
